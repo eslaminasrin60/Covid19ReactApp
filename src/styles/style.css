@@ -1,0 +1,21 @@
+.header {
+  background-color: #ee4540;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 10rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+.header h3 {
+  color: #2d132c;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+.header h5 {
+  color: #2d132c;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
