@@ -19,3 +19,38 @@
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
 }
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+}
+.listnode {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.title {
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+.content {
+  font-weight: lighter;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  color: #c72c41;
+  background-color: transparent;
+  border: none;
+}
